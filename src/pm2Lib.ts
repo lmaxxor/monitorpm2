@@ -15,7 +15,7 @@ export interface IProcessOutLog {
 
 class Pm2Lib {
   private readonly SCRIPT_PATH = process.env.SCRIPT_PATH;
-  private readonly MINERS = ['whaticket-banckend', 'whaticket-frontend'];
+  private readonly MINERS = ['atendfy-backend', 'atendfy-frontend'];
 
   private bus: EventEmitter | undefined;
 
